@@ -1,10 +1,10 @@
-
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
+
 
 body {
   background-color: #f5f6fa;
@@ -37,12 +37,10 @@ header .container {
 .menu {
   display: flex;
 }
-
 .menu li {
   font-weight: bold;
   margin-left: 24px;
 }
-
 .menu li a {
   color: #fff;
   text-decoration: none;
@@ -60,13 +58,11 @@ section {
   row-gap: 4%;
   width: 100%;
 }
-
-.product-item img {
+.products .product-item img {
   width: 100%;
   border-radius: 16px;
 }
-
-.product-button {
+.products .product-button {
   display: block;
   background-color: #44bd32;
   color: #fff;
@@ -76,8 +72,7 @@ section {
   margin-top: 8px;
   text-decoration: none;
 }
-
-.product-button:hover {
+.products .product-button:hover {
   background-color: #4cd137;
 }
 
